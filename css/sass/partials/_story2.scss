@@ -1,0 +1,282 @@
+.story2TopQuote {
+    float: left;
+    width: 100%;
+    @include box-sizing(boxsizing);
+    text-align: center;
+    padding: 0px 248px;
+    p.quoteText {
+        float: left;
+        width: 100%;
+        margin-top: 18px;
+        font-size: 18px;
+        color: $black;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 26px;
+        font-weight: 300;
+    }
+    p.quoteFrom {
+        float: left;
+        width: 100%;
+        margin-top: 18px;
+        font-size: 17px;
+        color: #8a8a8a;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 27px;
+        font-weight: 300;
+    }
+}
+
+.story2Banner {
+    float: left;
+    width: 100%;
+    margin-top: 78px;
+    @include box-sizing(boxsizing);
+    text-align: center;
+    .imgBackground {
+        float: left;
+        width: 100%;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.story2BannerDescription {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+    @include box-sizing(boxsizing);
+    h3.storyHeading {
+        float: left;
+        width: 100%;
+        font-size: 19px;
+        color: $black;
+        margin: 28px 0 12px 0;
+        font-family: "Baya-Din";
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 17px;
+    }
+    p.storyText {
+        float: left;
+        width: 100%;
+        margin-top: 18px;
+        font-size: 16px;
+        color: #8a8a8a;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 27px;
+        font-weight: 300;
+    }
+}
+
+p.storyQuestion {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+    @include box-sizing(boxsizing);
+    margin-top: 28px;
+    font-size: 20px;
+    color: #000000;
+    font-style: italic;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.story2Img1 {
+    float: left;
+    width: 100%;
+    margin-top: 28px;
+    @include box-sizing(boxsizing);
+    text-align: center;
+    .imgBackground {
+        float: left;
+        width: 100%;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+p.greyText {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+    @include box-sizing(boxsizing);
+    margin-top: 28px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #8a8a8a;
+    font-family: "Baya-Din";
+    line-height: 27px;
+    font-weight: 300;
+}
+
+.story2ImgDescription {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+    margin-top: 28px;
+    @include box-sizing(boxsizing);
+    p.storyText {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        color: #8a8a8a;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 27px;
+        font-weight: 300;
+    }
+}
+
+.story2Img2 {
+    float: left;
+    width: 100%;
+    margin-top: 28px;
+    @include box-sizing(boxsizing);
+    padding: 0 90px;
+    .imgBackground {
+        float: right;
+        width: 40%;
+        img {
+            float: right;
+            max-width: 100%;
+        }
+    }
+    p.storyText {
+        float: left;
+        font-size: 16px;
+        color: #8a8a8a;
+        margin-top: 32px;
+        line-height: 30px;
+        width: 60%;
+        letter-spacing: 1px;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        @include box-sizing(boxsizing);
+        padding-left: 104px;
+    }
+}
+
+.story2Img3 {
+    float: left;
+    width: 100%;
+    margin-top: 28px;
+    @include box-sizing(boxsizing);
+    padding: 0 90px;
+    .imgBackground {
+        float: left;
+        width: 40%;
+        img {
+            float: left;
+            max-width: 100%;
+        }
+    }
+    p.storyText {
+        float: right;
+        font-size: 16px;
+        color: #8a8a8a;
+        letter-spacing: 1px;
+        margin-top: 148px;
+        line-height: 30px;
+        width: 60%;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        @include box-sizing(boxsizing);
+        padding-right: 104px;
+    }
+}
+
+.instagramDescriptionStory2 {
+    float: left;
+    width: 100%;
+    padding: 0 32px;
+    margin: 58px 0 0 0;
+    text-align: center;
+    @include box-sizing(boxsizing);
+    h3.storyHeading {
+        float: left;
+        width: 100%;
+        font-size: 23px;
+        color: $black;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 58px;
+    }
+}
+
+.exclusiveStory2 {
+    float: left;
+    width: 100%;
+    @include box-sizing(boxsizing);
+    margin: 78px 0 32px 0;
+    padding: 0 90px;
+    .imgBackground {
+        float: left;
+        width: 60%;
+        img {
+            float: left;
+        }
+    }
+    .scaleView {
+        float: left;
+        width: 40%;
+        @include box-sizing(boxsizing);
+        padding-left: 42px;
+        p.sizeText {
+            float: left;
+            font-weight: 300;
+            font-size: 15px;
+            color: $black;
+            font-family: "Baya-Din";
+            margin-top: 24px;
+            line-height: 26px;
+        }
+        h3 {
+            float: left;
+            width: 100%;
+            margin-top: 22px;
+            font-size: 17px;
+            line-height: 1.25rem;
+            font-family: "ufonts.com_futurabt-book-opentype-webfont";
+            .cut {
+                text-decoration: line-through;
+                font-size: 17px;
+                margin-right: 8px;
+                font-weight: 300;
+                color: #BFBFBF;
+            }
+        }
+        .scaleParameter {
+            float: left;
+            width: 100%;
+            margin: 68px 0px 52px 0;
+            .parameter {
+                float: left;
+                margin-left: 22px;
+                width: 36px;
+                height: 36px;
+                @include border-radius(50%);
+                @extend %center;
+                cursor: pointer;
+                background-color: $white;
+                border: 1px solid #000000;
+                line-height: 36px;
+                &:first-child {
+                    margin-left: 0px;
+                }
+            }
+        }
+        button.buyButton {
+            float: left;
+            width: 246px;
+            font-size: 13px;
+            line-height: 44px;
+            background-color: $black;
+            color: $white;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'fonts';
+@import 'reset';
+@import 'footer';
+
+
+
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	@include box-sizing(boxsizing);
+}

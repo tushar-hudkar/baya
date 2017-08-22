@@ -1,0 +1,4086 @@
+/*
+
+Colors
+
+*/
+/*
+
+Mixins
+
+*/
+/*
+
+Placeholders
+
+*/
+/* line 80, ../sass/modules/_variables.scss */
+.logo, .navigation {
+  float: left;
+  width: 100%; }
+
+/* line 85, ../sass/modules/_variables.scss */
+.logo, .exclusive .scaleView .scaleParameter .parameter, .exclusiveStory2 .scaleView .scaleParameter .parameter, .exclusiveStory3 .scaleView .scaleParameter .parameter, .exclusiveStory4 .scaleView .scaleParameter .parameter, .exclusiveStory5 .scaleView .scaleParameter .parameter {
+  text-align: center; }
+
+@font-face {
+  font-family: "Baya-Din";
+  src: url("../../bayaFont/Baya-Din.eot");
+  src: url("../../bayaFont/Baya-Din.eot?#iefix") format("embedded-opentype"), url("../../bayaFont/Baya-Din.woff") format("woff"), url("../../bayaFont/Baya-Din.ttf") format("truetype"), url("../../bayaFont/Baya-Din.svg#Baya-Din") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "ufonts.com_futurabt-book-opentype-webfont";
+  src: url("../../bayaFont/ufonts.com_futurabt-book-opentype-webfont.eot");
+  src: url("../../bayaFont/ufonts.com_futurabt-book-opentype-webfont.eot?#iefix") format("embedded-opentype"), url("../../bayaFont/ufonts.com_futurabt-book-opentype-webfont.woff") format("woff"), url("../../bayaFont/ufonts.com_futurabt-book-opentype-webfont.ttf") format("truetype"), url("../../bayaFont/ufonts.com_futurabt-book-opentype-webfont.svg#ufonts.com_futurabt-book-opentype-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+/* line 9, ../sass/modules/_reset.scss */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* line 87, ../sass/modules/_reset.scss */
+body {
+  line-height: 1;
+  font-family: "News-Gothic-MT-Bold"; }
+
+/* line 92, ../sass/modules/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+/* line 106, ../sass/modules/_reset.scss */
+nav ul {
+  list-style: none; }
+
+/* line 110, ../sass/modules/_reset.scss */
+blockquote,
+q {
+  quotes: none; }
+
+/* line 115, ../sass/modules/_reset.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+/* line 123, ../sass/modules/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+/* line 132, ../sass/modules/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+/* line 139, ../sass/modules/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* line 146, ../sass/modules/_reset.scss */
+del {
+  text-decoration: line-through; }
+
+/* line 150, ../sass/modules/_reset.scss */
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+/* line 156, ../sass/modules/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+/* line 162, ../sass/modules/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* line 171, ../sass/modules/_reset.scss */
+input,
+select {
+  vertical-align: middle; }
+
+/* line 176, ../sass/modules/_reset.scss */
+html {
+  /* font-size: 16px; */
+  background: #FFFFFF;
+  font-family: "News-Gothic-MT-Bold";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; }
+
+/* line 186, ../sass/modules/_reset.scss */
+a {
+  text-decoration: none !important;
+  color: inherit; }
+
+/* @media (max-width: 992px) {
+  html { font-size: 14px; }
+}
+
+@media (max-width: 768px) {
+  html { font-size: 13px; }
+}
+
+@media (max-width: 480px) {
+  html { font-size: 12px; }
+} */
+/* line 1, ../sass/modules/_footer.scss */
+footer {
+  float: left;
+  width: 100%;
+  margin-top: 88px;
+  margin-bottom: 92px;
+  text-align: center; }
+  /* line 7, ../sass/modules/_footer.scss */
+  footer .subscribe {
+    max-width: 500px;
+    margin: 0 auto;
+    height: 48px;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 40px; }
+    /* line 14, ../sass/modules/_footer.scss */
+    footer .subscribe input {
+      float: left;
+      margin-left: 12px;
+      width: 444px;
+      height: 46px;
+      outline: none;
+      border: none; }
+    /* line 22, ../sass/modules/_footer.scss */
+    footer .subscribe .goTo {
+      float: right;
+      height: 46px;
+      line-height: 48px;
+      width: 40px;
+      cursor: pointer; }
+  /* line 32, ../sass/modules/_footer.scss */
+  footer .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 18px; }
+    /* line 38, ../sass/modules/_footer.scss */
+    footer .nav li {
+      display: inline;
+      text-transform: capitalize; }
+    /* line 42, ../sass/modules/_footer.scss */
+    footer .nav a {
+      font-size: 14px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      color: #8d8d8d;
+      display: inline-block;
+      padding: 10px 3%; }
+  /* line 50, ../sass/modules/_footer.scss */
+  footer .social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    /* line 55, ../sass/modules/_footer.scss */
+    footer .social li {
+      display: inline;
+      text-transform: capitalize; }
+    /* line 59, ../sass/modules/_footer.scss */
+    footer .social a {
+      display: inline-block;
+      padding: 10px 16px; }
+
+/* line 9, ../sass/modules/_all.scss */
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/* line 1, ../sass/partials/_logo.scss */
+.logo {
+  margin-top: 48px;
+  margin-bottom: 64px; }
+
+/* line 8, ../sass/partials/_logo.scss */
+.click {
+  position: absolute;
+  top: 79px;
+  right: 88px;
+  cursor: pointer; }
+  /* line 14, ../sass/partials/_logo.scss */
+  .click .clickLine {
+    width: 20px;
+    height: 3px;
+    background-color: #000000;
+    margin-bottom: 3px; }
+
+/* line 1, ../sass/partials/_nav.scss */
+.navigation {
+  background-color: #FFFFFF;
+  z-index: 999;
+  line-height: 42px; }
+  /* line 6, ../sass/partials/_nav.scss */
+  .navigation .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    /* line 11, ../sass/partials/_nav.scss */
+    .navigation .nav li {
+      display: inline;
+      text-transform: capitalize;
+      padding-right: 3.8%;
+      padding-left: 3.8%; }
+      /* line 17, ../sass/partials/_nav.scss */
+      .navigation .nav li:first-child {
+        padding-left: 0; }
+      /* line 18, ../sass/partials/_nav.scss */
+      .navigation .nav li:last-child {
+        padding-right: 0; }
+    /* line 20, ../sass/partials/_nav.scss */
+    .navigation .nav a {
+      font-size: 0.875rem;
+      color: #cdcdcd;
+      display: inline-block;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+    /* line 26, ../sass/partials/_nav.scss */
+    .navigation .nav a.active {
+      color: #000000; }
+
+/* line 32, ../sass/partials/_nav.scss */
+.navbar-fixed {
+  top: 0;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.92);
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(241, 241, 241, 0.7);
+  -moz-box-shadow: 0px 2px 1px 0px rgba(241, 241, 241, 0.7);
+  box-shadow: 0px 2px 1px 0px rgba(241, 241, 241, 0.7);
+  transition: box-shadow 0.5s ease, padding 0.5s ease; }
+
+/* line 1, ../sass/partials/_homeProducts.scss */
+.homeBanner {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 68px; }
+  /* line 5, ../sass/partials/_homeProducts.scss */
+  .homeBanner .imgBackground {
+    float: left;
+    width: 100%;
+    background: white;
+    background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 ); }
+    /* line 15, ../sass/partials/_homeProducts.scss */
+    .homeBanner .imgBackground img {
+      float: left;
+      max-width: 100%;
+      margin-left: 104px;
+      margin: 94px 0 76px 102px;
+      max-height: 600px; }
+    /* line 22, ../sass/partials/_homeProducts.scss */
+    .homeBanner .imgBackground .priceBox {
+      float: left;
+      width: 168px;
+      margin-left: 100px;
+      margin-top: 298px; }
+      /* line 27, ../sass/partials/_homeProducts.scss */
+      .homeBanner .imgBackground .priceBox h3 {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.25rem;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+        /* line 33, ../sass/partials/_homeProducts.scss */
+        .homeBanner .imgBackground .priceBox h3 .cut {
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #BFBFBF;
+          font-weight: 300; }
+      /* line 40, ../sass/partials/_homeProducts.scss */
+      .homeBanner .imgBackground .priceBox p.productType {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Baya-Din";
+        line-height: 1.25rem;
+        color: #000000; }
+
+/* line 54, ../sass/partials/_homeProducts.scss */
+.homeProduct1 {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px; }
+  /* line 57, ../sass/partials/_homeProducts.scss */
+  .homeProduct1 .imgBackground {
+    float: left;
+    padding: 0px 78px 0px 58px;
+    margin-left: 122px;
+    background: white;
+    background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    position: relative; }
+    /* line 71, ../sass/partials/_homeProducts.scss */
+    .homeProduct1 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px; }
+    /* line 77, ../sass/partials/_homeProducts.scss */
+    .homeProduct1 .imgBackground .priceBox {
+      position: absolute;
+      top: 52%;
+      left: 94%;
+      width: 168px; }
+      /* line 82, ../sass/partials/_homeProducts.scss */
+      .homeProduct1 .imgBackground .priceBox h3 {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.25rem;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+        /* line 88, ../sass/partials/_homeProducts.scss */
+        .homeProduct1 .imgBackground .priceBox h3 .cut {
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #BFBFBF;
+          font-weight: 300; }
+      /* line 95, ../sass/partials/_homeProducts.scss */
+      .homeProduct1 .imgBackground .priceBox p.productType {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Baya-Din";
+        line-height: 1.25rem;
+        color: #000000; }
+
+/* line 109, ../sass/partials/_homeProducts.scss */
+.homeProduct2 {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px; }
+  /* line 112, ../sass/partials/_homeProducts.scss */
+  .homeProduct2 .imgBackground {
+    float: right;
+    padding: 0 36px 0px 48px;
+    margin-right: 20px;
+    background: white;
+    background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    position: relative; }
+    /* line 126, ../sass/partials/_homeProducts.scss */
+    .homeProduct2 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px;
+      margin-top: 28px; }
+    /* line 133, ../sass/partials/_homeProducts.scss */
+    .homeProduct2 .imgBackground .priceBox {
+      position: absolute;
+      top: 62%;
+      right: 86%;
+      width: 168px; }
+      /* line 138, ../sass/partials/_homeProducts.scss */
+      .homeProduct2 .imgBackground .priceBox h3 {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.25rem;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+        /* line 144, ../sass/partials/_homeProducts.scss */
+        .homeProduct2 .imgBackground .priceBox h3 .cut {
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #BFBFBF;
+          font-weight: 300; }
+      /* line 151, ../sass/partials/_homeProducts.scss */
+      .homeProduct2 .imgBackground .priceBox p.productType {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Baya-Din";
+        line-height: 1.25rem;
+        color: #000000; }
+
+/* line 164, ../sass/partials/_homeProducts.scss */
+.homeProduct3 {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px; }
+  /* line 167, ../sass/partials/_homeProducts.scss */
+  .homeProduct3 .imgBackground {
+    float: left;
+    padding: 0px 54px 0px 24px;
+    margin-left: 212px;
+    background: white;
+    background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    position: relative; }
+    /* line 181, ../sass/partials/_homeProducts.scss */
+    .homeProduct3 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px;
+      margin-top: 28px; }
+    /* line 188, ../sass/partials/_homeProducts.scss */
+    .homeProduct3 .imgBackground .priceBox {
+      position: absolute;
+      top: 62%;
+      left: 94%;
+      width: 168px; }
+      /* line 193, ../sass/partials/_homeProducts.scss */
+      .homeProduct3 .imgBackground .priceBox h3 {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.25rem;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+        /* line 199, ../sass/partials/_homeProducts.scss */
+        .homeProduct3 .imgBackground .priceBox h3 .cut {
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #BFBFBF;
+          font-weight: 300; }
+      /* line 206, ../sass/partials/_homeProducts.scss */
+      .homeProduct3 .imgBackground .priceBox p.productType {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Baya-Din";
+        line-height: 1.25rem;
+        color: #000000; }
+
+/* line 220, ../sass/partials/_homeProducts.scss */
+.homeProduct4 {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px; }
+  /* line 223, ../sass/partials/_homeProducts.scss */
+  .homeProduct4 .imgBackground {
+    float: right;
+    margin-right: 20px;
+    padding: 0px 52px 0px 58px;
+    background: white;
+    background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    position: relative; }
+    /* line 237, ../sass/partials/_homeProducts.scss */
+    .homeProduct4 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px; }
+  /* line 246, ../sass/partials/_homeProducts.scss */
+  .homeProduct4 .priceBox {
+    float: left;
+    width: 168px;
+    margin-top: 268px;
+    margin-left: 232px; }
+    /* line 251, ../sass/partials/_homeProducts.scss */
+    .homeProduct4 .priceBox h3 {
+      float: left;
+      width: 100%;
+      font-size: 17px;
+      line-height: 1.25rem;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+      /* line 257, ../sass/partials/_homeProducts.scss */
+      .homeProduct4 .priceBox h3 .cut {
+        text-decoration: line-through;
+        font-size: 18px;
+        color: #BFBFBF;
+        font-weight: 300; }
+    /* line 264, ../sass/partials/_homeProducts.scss */
+    .homeProduct4 .priceBox p.productType {
+      float: left;
+      width: 100%;
+      margin-top: 10px;
+      font-size: 14px;
+      font-family: "Baya-Din";
+      line-height: 1.25rem;
+      color: #000000; }
+
+/* line 276, ../sass/partials/_homeProducts.scss */
+.homeProduct5 {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px; }
+  /* line 279, ../sass/partials/_homeProducts.scss */
+  .homeProduct5 .imgBackground {
+    float: left;
+    padding: 0px 68px 0px 58px;
+    background: white;
+    background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    position: relative; }
+    /* line 292, ../sass/partials/_homeProducts.scss */
+    .homeProduct5 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px;
+      margin-top: 28px; }
+    /* line 299, ../sass/partials/_homeProducts.scss */
+    .homeProduct5 .imgBackground .priceBox {
+      position: absolute;
+      top: 64%;
+      left: 94%;
+      width: 168px; }
+      /* line 304, ../sass/partials/_homeProducts.scss */
+      .homeProduct5 .imgBackground .priceBox h3 {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.25rem;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+        /* line 310, ../sass/partials/_homeProducts.scss */
+        .homeProduct5 .imgBackground .priceBox h3 .cut {
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #BFBFBF;
+          font-weight: 300; }
+      /* line 317, ../sass/partials/_homeProducts.scss */
+      .homeProduct5 .imgBackground .priceBox p.productType {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Baya-Din";
+        line-height: 1.25rem;
+        color: #000000; }
+
+/* line 331, ../sass/partials/_homeProducts.scss */
+.homeProduct6 {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px; }
+  /* line 334, ../sass/partials/_homeProducts.scss */
+  .homeProduct6 .imgBackground {
+    float: right;
+    padding: 0px 44px 0px 52px;
+    margin-right: 136px;
+    background: white;
+    background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    position: relative; }
+    /* line 348, ../sass/partials/_homeProducts.scss */
+    .homeProduct6 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px; }
+    /* line 354, ../sass/partials/_homeProducts.scss */
+    .homeProduct6 .imgBackground .priceBox {
+      position: absolute;
+      top: 68%;
+      right: 86%;
+      width: 168px; }
+      /* line 359, ../sass/partials/_homeProducts.scss */
+      .homeProduct6 .imgBackground .priceBox h3 {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.25rem;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+        /* line 365, ../sass/partials/_homeProducts.scss */
+        .homeProduct6 .imgBackground .priceBox h3 .cut {
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #BFBFBF;
+          font-weight: 300; }
+      /* line 372, ../sass/partials/_homeProducts.scss */
+      .homeProduct6 .imgBackground .priceBox p.productType {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Baya-Din";
+        line-height: 1.25rem;
+        color: #000000; }
+
+/* line 386, ../sass/partials/_homeProducts.scss */
+.homeProduct7 {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px; }
+  /* line 389, ../sass/partials/_homeProducts.scss */
+  .homeProduct7 .imgBackground {
+    float: left;
+    margin-left: 172px;
+    padding: 0px 68px 0px 58px;
+    background: white;
+    background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    position: relative; }
+    /* line 403, ../sass/partials/_homeProducts.scss */
+    .homeProduct7 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px; }
+  /* line 412, ../sass/partials/_homeProducts.scss */
+  .homeProduct7 .priceBox {
+    float: right;
+    margin-right: 22px;
+    margin-top: 242px;
+    width: 168px; }
+    /* line 417, ../sass/partials/_homeProducts.scss */
+    .homeProduct7 .priceBox h3 {
+      float: left;
+      width: 100%;
+      font-size: 17px;
+      line-height: 1.25rem;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+      /* line 423, ../sass/partials/_homeProducts.scss */
+      .homeProduct7 .priceBox h3 .cut {
+        text-decoration: line-through;
+        font-size: 18px;
+        color: #BFBFBF;
+        font-weight: 300; }
+    /* line 430, ../sass/partials/_homeProducts.scss */
+    .homeProduct7 .priceBox p.productType {
+      float: left;
+      width: 100%;
+      margin-top: 10px;
+      font-size: 14px;
+      font-family: "Baya-Din";
+      line-height: 1.25rem;
+      color: #000000; }
+
+/* line 443, ../sass/partials/_homeProducts.scss */
+.homeProduct8 {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px; }
+  /* line 446, ../sass/partials/_homeProducts.scss */
+  .homeProduct8 .imgBackground {
+    float: right;
+    padding: 0 36px 0px 48px;
+    margin-right: 20px;
+    background: white;
+    background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    position: relative; }
+    /* line 460, ../sass/partials/_homeProducts.scss */
+    .homeProduct8 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px;
+      margin-top: 28px; }
+    /* line 467, ../sass/partials/_homeProducts.scss */
+    .homeProduct8 .imgBackground .priceBox {
+      position: absolute;
+      top: 62%;
+      right: 86%;
+      width: 168px; }
+      /* line 472, ../sass/partials/_homeProducts.scss */
+      .homeProduct8 .imgBackground .priceBox h3 {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.25rem;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+        /* line 478, ../sass/partials/_homeProducts.scss */
+        .homeProduct8 .imgBackground .priceBox h3 .cut {
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #BFBFBF;
+          font-weight: 300; }
+      /* line 485, ../sass/partials/_homeProducts.scss */
+      .homeProduct8 .imgBackground .priceBox p.productType {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Baya-Din";
+        line-height: 1.25rem;
+        color: #000000; }
+
+/* line 498, ../sass/partials/_homeProducts.scss */
+.homeBottomBanner {
+  float: left;
+  width: 100%;
+  text-align: center; }
+  /* line 501, ../sass/partials/_homeProducts.scss */
+  .homeBottomBanner .imgBackground {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative; }
+    /* line 507, ../sass/partials/_homeProducts.scss */
+    .homeBottomBanner .imgBackground img {
+      max-width: 100%;
+      max-height: 600px;
+      background: white;
+      background: -moz-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(9%, white), color-stop(14%, #fefefe), color-stop(53%, #f9f9f9), color-stop(74%, #f6f6f6), color-stop(100%, #ededed));
+      background: -webkit-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+      background: -o-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+      background: -ms-radial-gradient(center, ellipse cover, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+      background: radial-gradient(ellipse at center, white 9%, #fefefe 14%, #f9f9f9 53%, #f6f6f6 74%, #ededed 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 ); }
+    /* line 519, ../sass/partials/_homeProducts.scss */
+    .homeBottomBanner .imgBackground .priceBox {
+      float: left;
+      width: 168px;
+      top: 24px;
+      left: 68px;
+      position: absolute;
+      text-align: left; }
+      /* line 526, ../sass/partials/_homeProducts.scss */
+      .homeBottomBanner .imgBackground .priceBox h3 {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.25rem;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+        /* line 532, ../sass/partials/_homeProducts.scss */
+        .homeBottomBanner .imgBackground .priceBox h3 .cut {
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #BFBFBF;
+          font-weight: 300; }
+      /* line 539, ../sass/partials/_homeProducts.scss */
+      .homeBottomBanner .imgBackground .priceBox p.productType {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Baya-Din";
+        line-height: 1.25rem;
+        color: #000000; }
+
+/* line 1, ../sass/partials/_story.scss */
+.storyTopQuote {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  padding: 0px 326px; }
+  /* line 7, ../sass/partials/_story.scss */
+  .storyTopQuote p.quoteText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 18px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 26px;
+    font-weight: 300; }
+  /* line 17, ../sass/partials/_story.scss */
+  .storyTopQuote p.quoteFrom {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 17px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 29, ../sass/partials/_story.scss */
+.storyBanner {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 35, ../sass/partials/_story.scss */
+  .storyBanner .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 38, ../sass/partials/_story.scss */
+    .storyBanner .imgBackground img {
+      max-width: 100%; }
+
+/* line 44, ../sass/partials/_story.scss */
+.storyBannerDescription {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 49, ../sass/partials/_story.scss */
+  .storyBannerDescription h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    color: #000000;
+    margin: 28px 0 12px 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 60, ../sass/partials/_story.scss */
+  .storyBannerDescription p.storyText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 72, ../sass/partials/_story.scss */
+.storyImg1 {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 78, ../sass/partials/_story.scss */
+  .storyImg1 .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 81, ../sass/partials/_story.scss */
+    .storyImg1 .imgBackground img {
+      max-width: 100%; }
+
+/* line 87, ../sass/partials/_story.scss */
+.storyImgDescription {
+  float: left;
+  width: 100%;
+  padding: 0 32px;
+  margin-top: 18px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 93, ../sass/partials/_story.scss */
+  .storyImgDescription p.storyText {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 104, ../sass/partials/_story.scss */
+.storyImg2 {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 109, ../sass/partials/_story.scss */
+  .storyImg2 .imgBackground {
+    float: left;
+    width: 50%;
+    text-align: center; }
+    /* line 113, ../sass/partials/_story.scss */
+    .storyImg2 .imgBackground img {
+      max-width: 100%; }
+  /* line 117, ../sass/partials/_story.scss */
+  .storyImg2 p.storyText {
+    float: left;
+    padding-right: 108px;
+    font-size: 16px;
+    margin-top: 170px;
+    line-height: 27px;
+    width: 50%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+
+/* line 129, ../sass/partials/_story.scss */
+.storyImg3 {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 134, ../sass/partials/_story.scss */
+  .storyImg3 .imgBackground {
+    float: left;
+    width: 50%;
+    text-align: center; }
+    /* line 138, ../sass/partials/_story.scss */
+    .storyImg3 .imgBackground img {
+      max-width: 100%; }
+  /* line 142, ../sass/partials/_story.scss */
+  .storyImg3 .testimonial {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 108px;
+    margin-top: 170px; }
+    /* line 148, ../sass/partials/_story.scss */
+    .storyImg3 .testimonial img.doubleQuote {
+      float: left;
+      margin-bottom: 18px; }
+    /* line 152, ../sass/partials/_story.scss */
+    .storyImg3 .testimonial p.testimonialText {
+      float: left;
+      font-size: 16px;
+      color: #000000;
+      line-height: 27px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+    /* line 159, ../sass/partials/_story.scss */
+    .storyImg3 .testimonial p.name {
+      float: left;
+      font-size: 16px;
+      color: #000000;
+      font-weight: bold;
+      margin-top: 22px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+    /* line 167, ../sass/partials/_story.scss */
+    .storyImg3 .testimonial p.storyText {
+      float: left;
+      font-size: 16px;
+      line-height: 27px;
+      margin-top: 70px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+
+/* line 177, ../sass/partials/_story.scss */
+.storyLines {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  padding: 0 32px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 183, ../sass/partials/_story.scss */
+  .storyLines h3.storyLinesHeading {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    color: #000000;
+    margin: 28px 0 12px 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 194, ../sass/partials/_story.scss */
+  .storyLines p.storyLinesText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 16px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 206, ../sass/partials/_story.scss */
+.storyImg4 {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 211, ../sass/partials/_story.scss */
+  .storyImg4 .imgBackground {
+    float: left;
+    width: 50%;
+    text-align: center; }
+    /* line 215, ../sass/partials/_story.scss */
+    .storyImg4 .imgBackground img {
+      float: right;
+      max-width: 100%; }
+  /* line 220, ../sass/partials/_story.scss */
+  .storyImg4 p.storyText {
+    float: left;
+    padding-right: 122px;
+    padding-left: 52px;
+    font-size: 16px;
+    margin-top: 170px;
+    line-height: 27px;
+    width: 50%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+
+/* line 233, ../sass/partials/_story.scss */
+.instagramDescription {
+  float: left;
+  width: 100%;
+  padding: 0 32px;
+  margin: 100px 0 24px 0;
+  text-align: center;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 240, ../sass/partials/_story.scss */
+  .instagramDescription h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 23px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 58px; }
+
+/* line 252, ../sass/partials/_story.scss */
+.exclusive {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 78px 0 32px 0;
+  padding: 0 90px; }
+  /* line 258, ../sass/partials/_story.scss */
+  .exclusive .imgBackground {
+    float: left;
+    width: 60%; }
+    /* line 261, ../sass/partials/_story.scss */
+    .exclusive .imgBackground img {
+      float: left; }
+  /* line 265, ../sass/partials/_story.scss */
+  .exclusive .scaleView {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 42px; }
+    /* line 270, ../sass/partials/_story.scss */
+    .exclusive .scaleView p.sizeText {
+      float: left;
+      font-weight: 300;
+      font-size: 15px;
+      color: #000000;
+      font-family: "Baya-Din";
+      margin-top: 24px;
+      line-height: 26px; }
+    /* line 279, ../sass/partials/_story.scss */
+    .exclusive .scaleView h3 {
+      float: left;
+      width: 100%;
+      margin-top: 22px;
+      font-size: 17px;
+      line-height: 1.25rem;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+      /* line 286, ../sass/partials/_story.scss */
+      .exclusive .scaleView h3 .cut {
+        text-decoration: line-through;
+        font-size: 17px;
+        margin-right: 8px;
+        font-weight: 300;
+        color: #BFBFBF; }
+    /* line 294, ../sass/partials/_story.scss */
+    .exclusive .scaleView .scaleParameter {
+      float: left;
+      width: 100%;
+      margin: 68px 0px 52px 0; }
+      /* line 298, ../sass/partials/_story.scss */
+      .exclusive .scaleView .scaleParameter .parameter {
+        float: left;
+        margin-left: 22px;
+        width: 36px;
+        height: 36px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        line-height: 36px; }
+        /* line 309, ../sass/partials/_story.scss */
+        .exclusive .scaleView .scaleParameter .parameter:first-child {
+          margin-left: 0px; }
+    /* line 314, ../sass/partials/_story.scss */
+    .exclusive .scaleView button.buyButton {
+      float: left;
+      width: 246px;
+      font-size: 13px;
+      line-height: 44px;
+      background-color: #000000;
+      color: #FFFFFF;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      text-transform: uppercase; }
+
+/* line 1, ../sass/partials/_story2.scss */
+.story2TopQuote {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  padding: 0px 248px; }
+  /* line 7, ../sass/partials/_story2.scss */
+  .story2TopQuote p.quoteText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 18px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 26px;
+    font-weight: 300; }
+  /* line 17, ../sass/partials/_story2.scss */
+  .story2TopQuote p.quoteFrom {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 17px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 29, ../sass/partials/_story2.scss */
+.story2Banner {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 35, ../sass/partials/_story2.scss */
+  .story2Banner .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 38, ../sass/partials/_story2.scss */
+    .story2Banner .imgBackground img {
+      max-width: 100%; }
+
+/* line 44, ../sass/partials/_story2.scss */
+.story2BannerDescription {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 49, ../sass/partials/_story2.scss */
+  .story2BannerDescription h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    color: #000000;
+    margin: 28px 0 12px 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 60, ../sass/partials/_story2.scss */
+  .story2BannerDescription p.storyText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 72, ../sass/partials/_story2.scss */
+p.storyQuestion {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin-top: 28px;
+  font-size: 20px;
+  color: #000000;
+  font-style: italic;
+  font-family: "ufonts.com_futurabt-book-opentype-webfont";
+  line-height: 27px;
+  font-weight: 300; }
+
+/* line 86, ../sass/partials/_story2.scss */
+.story2Img1 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 92, ../sass/partials/_story2.scss */
+  .story2Img1 .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 95, ../sass/partials/_story2.scss */
+    .story2Img1 .imgBackground img {
+      max-width: 100%; }
+
+/* line 101, ../sass/partials/_story2.scss */
+p.greyText {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin-top: 28px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #8a8a8a;
+  font-family: "Baya-Din";
+  line-height: 27px;
+  font-weight: 300; }
+
+/* line 115, ../sass/partials/_story2.scss */
+.story2ImgDescription {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 121, ../sass/partials/_story2.scss */
+  .story2ImgDescription p.storyText {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 132, ../sass/partials/_story2.scss */
+.story2Img2 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 138, ../sass/partials/_story2.scss */
+  .story2Img2 .imgBackground {
+    float: right;
+    width: 40%; }
+    /* line 141, ../sass/partials/_story2.scss */
+    .story2Img2 .imgBackground img {
+      float: right;
+      max-width: 100%; }
+  /* line 146, ../sass/partials/_story2.scss */
+  .story2Img2 p.storyText {
+    float: left;
+    font-size: 16px;
+    color: #8a8a8a;
+    margin-top: 32px;
+    line-height: 30px;
+    width: 60%;
+    letter-spacing: 1px;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 104px; }
+
+/* line 160, ../sass/partials/_story2.scss */
+.story2Img3 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 166, ../sass/partials/_story2.scss */
+  .story2Img3 .imgBackground {
+    float: left;
+    width: 40%; }
+    /* line 169, ../sass/partials/_story2.scss */
+    .story2Img3 .imgBackground img {
+      float: left;
+      max-width: 100%; }
+  /* line 174, ../sass/partials/_story2.scss */
+  .story2Img3 p.storyText {
+    float: right;
+    font-size: 16px;
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    margin-top: 148px;
+    line-height: 30px;
+    width: 60%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-right: 104px; }
+
+/* line 188, ../sass/partials/_story2.scss */
+.instagramDescriptionStory2 {
+  float: left;
+  width: 100%;
+  padding: 0 32px;
+  margin: 58px 0 0 0;
+  text-align: center;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 195, ../sass/partials/_story2.scss */
+  .instagramDescriptionStory2 h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 23px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 58px; }
+
+/* line 207, ../sass/partials/_story2.scss */
+.exclusiveStory2 {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 78px 0 32px 0;
+  padding: 0 90px; }
+  /* line 213, ../sass/partials/_story2.scss */
+  .exclusiveStory2 .imgBackground {
+    float: left;
+    width: 60%; }
+    /* line 216, ../sass/partials/_story2.scss */
+    .exclusiveStory2 .imgBackground img {
+      float: left; }
+  /* line 220, ../sass/partials/_story2.scss */
+  .exclusiveStory2 .scaleView {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 42px; }
+    /* line 225, ../sass/partials/_story2.scss */
+    .exclusiveStory2 .scaleView p.sizeText {
+      float: left;
+      font-weight: 300;
+      font-size: 15px;
+      color: #000000;
+      font-family: "Baya-Din";
+      margin-top: 24px;
+      line-height: 26px; }
+    /* line 234, ../sass/partials/_story2.scss */
+    .exclusiveStory2 .scaleView h3 {
+      float: left;
+      width: 100%;
+      margin-top: 22px;
+      font-size: 17px;
+      line-height: 1.25rem;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+      /* line 241, ../sass/partials/_story2.scss */
+      .exclusiveStory2 .scaleView h3 .cut {
+        text-decoration: line-through;
+        font-size: 17px;
+        margin-right: 8px;
+        font-weight: 300;
+        color: #BFBFBF; }
+    /* line 249, ../sass/partials/_story2.scss */
+    .exclusiveStory2 .scaleView .scaleParameter {
+      float: left;
+      width: 100%;
+      margin: 68px 0px 52px 0; }
+      /* line 253, ../sass/partials/_story2.scss */
+      .exclusiveStory2 .scaleView .scaleParameter .parameter {
+        float: left;
+        margin-left: 22px;
+        width: 36px;
+        height: 36px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        line-height: 36px; }
+        /* line 264, ../sass/partials/_story2.scss */
+        .exclusiveStory2 .scaleView .scaleParameter .parameter:first-child {
+          margin-left: 0px; }
+    /* line 269, ../sass/partials/_story2.scss */
+    .exclusiveStory2 .scaleView button.buyButton {
+      float: left;
+      width: 246px;
+      font-size: 13px;
+      line-height: 44px;
+      background-color: #000000;
+      color: #FFFFFF;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      text-transform: uppercase; }
+
+/* line 1, ../sass/partials/_story3.scss */
+.story3TopQuote {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 6, ../sass/partials/_story3.scss */
+  .story3TopQuote p.quoteText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 26px;
+    font-weight: bold; }
+
+/* line 19, ../sass/partials/_story3.scss */
+.story3Banner {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 25, ../sass/partials/_story3.scss */
+  .story3Banner .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 28, ../sass/partials/_story3.scss */
+    .story3Banner .imgBackground img {
+      max-width: 100%; }
+
+/* line 34, ../sass/partials/_story3.scss */
+.story3BannerDescription {
+  float: left;
+  width: 100%;
+  padding: 0 328px 0 90px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 39, ../sass/partials/_story3.scss */
+  .story3BannerDescription h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    color: #000000;
+    margin: 28px 0 12px 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 50, ../sass/partials/_story3.scss */
+  .story3BannerDescription p.storyText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 66, ../sass/partials/_story3.scss */
+.story3Img1 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 72, ../sass/partials/_story3.scss */
+  .story3Img1 .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 75, ../sass/partials/_story3.scss */
+    .story3Img1 .imgBackground img {
+      max-width: 100%; }
+
+/* line 81, ../sass/partials/_story3.scss */
+.story3Img2 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 87, ../sass/partials/_story3.scss */
+  .story3Img2 .imgBackground {
+    float: right;
+    width: 60%; }
+    /* line 90, ../sass/partials/_story3.scss */
+    .story3Img2 .imgBackground img {
+      float: right;
+      max-width: 100%; }
+  /* line 95, ../sass/partials/_story3.scss */
+  .story3Img2 p.storyText {
+    float: left;
+    font-size: 16px;
+    color: #8a8a8a;
+    margin-top: 152px;
+    line-height: 30px;
+    width: 40%;
+    letter-spacing: 1px;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-right: 44px;
+    font-weight: bold; }
+
+/* line 111, ../sass/partials/_story3.scss */
+.story3ImgDescription {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 117, ../sass/partials/_story3.scss */
+  .story3ImgDescription p.storyText {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 129, ../sass/partials/_story3.scss */
+.story3Img3 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 135, ../sass/partials/_story3.scss */
+  .story3Img3 .imgBackground {
+    float: right;
+    width: 60%; }
+    /* line 138, ../sass/partials/_story3.scss */
+    .story3Img3 .imgBackground img {
+      float: right;
+      max-width: 100%; }
+  /* line 143, ../sass/partials/_story3.scss */
+  .story3Img3 p.storyText {
+    float: left;
+    font-size: 16px;
+    color: #8a8a8a;
+    margin-top: 82px;
+    line-height: 30px;
+    width: 40%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-right: 78px; }
+
+/* line 157, ../sass/partials/_story3.scss */
+.story3Img4 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 163, ../sass/partials/_story3.scss */
+  .story3Img4 .imgBackground {
+    float: left;
+    width: 60%; }
+    /* line 166, ../sass/partials/_story3.scss */
+    .story3Img4 .imgBackground img {
+      float: left;
+      max-width: 100%; }
+  /* line 171, ../sass/partials/_story3.scss */
+  .story3Img4 p.storyText {
+    float: right;
+    font-size: 16px;
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    margin-top: 18px;
+    line-height: 26px;
+    width: 40%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 48px; }
+
+/* line 185, ../sass/partials/_story3.scss */
+.exclusiveTextStory3 {
+  float: left;
+  width: 100%;
+  padding: 0 32px;
+  margin: 58px 0 0 0;
+  text-align: center;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 192, ../sass/partials/_story3.scss */
+  .exclusiveTextStory3 h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 23px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 58px; }
+
+/* line 204, ../sass/partials/_story3.scss */
+.exclusiveStory3 {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 6px 0 32px 0;
+  padding: 0 90px; }
+  /* line 210, ../sass/partials/_story3.scss */
+  .exclusiveStory3 .imgBackground {
+    float: left;
+    width: 60%; }
+    /* line 213, ../sass/partials/_story3.scss */
+    .exclusiveStory3 .imgBackground img {
+      float: left; }
+  /* line 217, ../sass/partials/_story3.scss */
+  .exclusiveStory3 .scaleView {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 42px; }
+    /* line 222, ../sass/partials/_story3.scss */
+    .exclusiveStory3 .scaleView p.sizeText {
+      float: left;
+      font-weight: 300;
+      font-size: 15px;
+      color: #000000;
+      font-family: "Baya-Din";
+      margin-top: 24px;
+      line-height: 26px; }
+    /* line 231, ../sass/partials/_story3.scss */
+    .exclusiveStory3 .scaleView h3 {
+      float: left;
+      width: 100%;
+      margin-top: 22px;
+      font-size: 17px;
+      line-height: 1.25rem;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+      /* line 238, ../sass/partials/_story3.scss */
+      .exclusiveStory3 .scaleView h3 .cut {
+        text-decoration: line-through;
+        font-size: 17px;
+        margin-right: 8px;
+        font-weight: 300;
+        color: #BFBFBF; }
+    /* line 246, ../sass/partials/_story3.scss */
+    .exclusiveStory3 .scaleView .scaleParameter {
+      float: left;
+      width: 100%;
+      margin: 68px 0px 52px 0; }
+      /* line 250, ../sass/partials/_story3.scss */
+      .exclusiveStory3 .scaleView .scaleParameter .parameter {
+        float: left;
+        margin-left: 22px;
+        width: 36px;
+        height: 36px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        line-height: 36px; }
+        /* line 261, ../sass/partials/_story3.scss */
+        .exclusiveStory3 .scaleView .scaleParameter .parameter:first-child {
+          margin-left: 0px; }
+    /* line 266, ../sass/partials/_story3.scss */
+    .exclusiveStory3 .scaleView button.buyButton {
+      float: left;
+      width: 246px;
+      font-size: 13px;
+      line-height: 44px;
+      background-color: #000000;
+      color: #FFFFFF;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      text-transform: uppercase; }
+
+/* line 1, ../sass/partials/_story4.scss */
+.story4TopQuote {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  padding: 0 218px; }
+  /* line 7, ../sass/partials/_story4.scss */
+  .story4TopQuote p.quoteText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 32px; }
+  /* line 19, ../sass/partials/_story4.scss */
+  .story4TopQuote p.quoteFrom {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 32px;
+    font-weight: bold; }
+
+/* line 30, ../sass/partials/_story4.scss */
+.story4Banner {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 36, ../sass/partials/_story4.scss */
+  .story4Banner .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 39, ../sass/partials/_story4.scss */
+    .story4Banner .imgBackground img {
+      max-width: 100%; }
+
+/* line 45, ../sass/partials/_story4.scss */
+.story4BannerDescription {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 50, ../sass/partials/_story4.scss */
+  .story4BannerDescription h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    color: #000000;
+    margin: 28px 0 12px 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 61, ../sass/partials/_story4.scss */
+  .story4BannerDescription p.storyText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300;
+    letter-spacing: 1px; }
+
+/* line 74, ../sass/partials/_story4.scss */
+.story4Img1 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 80, ../sass/partials/_story4.scss */
+  .story4Img1 .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 83, ../sass/partials/_story4.scss */
+    .story4Img1 .imgBackground img {
+      max-width: 100%; }
+
+/* line 89, ../sass/partials/_story4.scss */
+.story4ImgDescription {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 95, ../sass/partials/_story4.scss */
+  .story4ImgDescription h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    color: #000000;
+    margin: 28px 0 12px 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 106, ../sass/partials/_story4.scss */
+  .story4ImgDescription p.storyText {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 118, ../sass/partials/_story4.scss */
+.story4Img2 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 124, ../sass/partials/_story4.scss */
+  .story4Img2 .imgBackground {
+    float: left;
+    width: 40%; }
+    /* line 127, ../sass/partials/_story4.scss */
+    .story4Img2 .imgBackground img {
+      float: left;
+      max-width: 100%; }
+  /* line 132, ../sass/partials/_story4.scss */
+  .story4Img2 p.storyText {
+    float: right;
+    font-size: 16px;
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    margin-top: 128px;
+    font-weight: bold;
+    line-height: 26px;
+    width: 60%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-right: 216px; }
+
+/* line 148, ../sass/partials/_story4.scss */
+.story4Quote {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  padding: 0 118px; }
+  /* line 154, ../sass/partials/_story4.scss */
+  .story4Quote p.quoteText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 18px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 32px; }
+  /* line 165, ../sass/partials/_story4.scss */
+  .story4Quote p.quoteFrom {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 32px; }
+
+/* line 175, ../sass/partials/_story4.scss */
+.exclusiveTextStory4 {
+  float: left;
+  width: 100%;
+  padding: 0 32px;
+  margin: 58px 0 0 0;
+  text-align: center;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 182, ../sass/partials/_story4.scss */
+  .exclusiveTextStory4 h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 23px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 58px; }
+
+/* line 194, ../sass/partials/_story4.scss */
+.exclusiveStory4 {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 6px 0 32px 0;
+  padding: 0 90px; }
+  /* line 200, ../sass/partials/_story4.scss */
+  .exclusiveStory4 .imgBackground {
+    float: left;
+    width: 60%; }
+    /* line 203, ../sass/partials/_story4.scss */
+    .exclusiveStory4 .imgBackground img {
+      float: left; }
+  /* line 207, ../sass/partials/_story4.scss */
+  .exclusiveStory4 .scaleView {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 42px; }
+    /* line 212, ../sass/partials/_story4.scss */
+    .exclusiveStory4 .scaleView p.sizeText {
+      float: left;
+      font-weight: 300;
+      font-size: 15px;
+      color: #000000;
+      font-family: "Baya-Din";
+      margin-top: 24px;
+      line-height: 26px; }
+    /* line 221, ../sass/partials/_story4.scss */
+    .exclusiveStory4 .scaleView h3 {
+      float: left;
+      width: 100%;
+      margin-top: 22px;
+      font-size: 17px;
+      line-height: 1.25rem;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+      /* line 228, ../sass/partials/_story4.scss */
+      .exclusiveStory4 .scaleView h3 .cut {
+        text-decoration: line-through;
+        font-size: 17px;
+        margin-right: 8px;
+        font-weight: 300;
+        color: #BFBFBF; }
+    /* line 236, ../sass/partials/_story4.scss */
+    .exclusiveStory4 .scaleView .scaleParameter {
+      float: left;
+      width: 100%;
+      margin: 68px 0px 52px 0; }
+      /* line 240, ../sass/partials/_story4.scss */
+      .exclusiveStory4 .scaleView .scaleParameter .parameter {
+        float: left;
+        margin-left: 22px;
+        width: 36px;
+        height: 36px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        line-height: 36px; }
+        /* line 251, ../sass/partials/_story4.scss */
+        .exclusiveStory4 .scaleView .scaleParameter .parameter:first-child {
+          margin-left: 0px; }
+    /* line 256, ../sass/partials/_story4.scss */
+    .exclusiveStory4 .scaleView button.buyButton {
+      float: left;
+      width: 246px;
+      font-size: 13px;
+      line-height: 44px;
+      background-color: #000000;
+      color: #FFFFFF;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      text-transform: uppercase; }
+
+/* line 1, ../sass/partials/_story5.scss */
+.story5TopQuote {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  padding: 0 218px; }
+  /* line 7, ../sass/partials/_story5.scss */
+  .story5TopQuote p.quoteText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 32px; }
+  /* line 19, ../sass/partials/_story5.scss */
+  .story5TopQuote p.quoteFrom {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 32px;
+    font-weight: bold; }
+
+/* line 30, ../sass/partials/_story5.scss */
+.story5Banner {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 36, ../sass/partials/_story5.scss */
+  .story5Banner .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 39, ../sass/partials/_story5.scss */
+    .story5Banner .imgBackground img {
+      max-width: 100%; }
+
+/* line 45, ../sass/partials/_story5.scss */
+.story5BannerDescription {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 50, ../sass/partials/_story5.scss */
+  .story5BannerDescription h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    color: #000000;
+    margin: 28px 0 12px 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 61, ../sass/partials/_story5.scss */
+  .story5BannerDescription p.storyText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 75, ../sass/partials/_story5.scss */
+.story5Img1 {
+  float: left;
+  width: 100%;
+  margin-top: 42px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 81, ../sass/partials/_story5.scss */
+  .story5Img1 .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 84, ../sass/partials/_story5.scss */
+    .story5Img1 .imgBackground img {
+      max-width: 100%; }
+
+/* line 90, ../sass/partials/_story5.scss */
+p.greyText {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin-top: 28px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: "Baya-Din";
+  line-height: 27px;
+  font-weight: 300; }
+
+/* line 104, ../sass/partials/_story5.scss */
+.story5ImgDescription {
+  float: left;
+  width: 100%;
+  padding: 0 90px;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 110, ../sass/partials/_story5.scss */
+  .story5ImgDescription h3.storyHeading {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    color: #000000;
+    margin: 28px 0 12px 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 121, ../sass/partials/_story5.scss */
+  .story5ImgDescription p.storyText {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 132, ../sass/partials/_story5.scss */
+.story5Img2 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 138, ../sass/partials/_story5.scss */
+  .story5Img2 .imgBackground {
+    float: right;
+    width: 50%; }
+    /* line 141, ../sass/partials/_story5.scss */
+    .story5Img2 .imgBackground img {
+      float: right;
+      max-width: 100%; }
+  /* line 146, ../sass/partials/_story5.scss */
+  .story5Img2 p.storyText {
+    float: left;
+    font-size: 16px;
+    color: #8a8a8a;
+    margin-top: 158px;
+    line-height: 30px;
+    width: 50%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+    /* line 156, ../sass/partials/_story5.scss */
+    .story5Img2 p.storyText .storyHeading {
+      float: left;
+      font-size: 17px;
+      color: #000000;
+      font-weight: bold; }
+
+/* line 165, ../sass/partials/_story5.scss */
+.story5Img3 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 171, ../sass/partials/_story5.scss */
+  .story5Img3 .imgBackground {
+    float: left;
+    width: 45%; }
+    /* line 174, ../sass/partials/_story5.scss */
+    .story5Img3 .imgBackground img {
+      float: left;
+      max-width: 100%; }
+  /* line 179, ../sass/partials/_story5.scss */
+  .story5Img3 p.storyText {
+    float: left;
+    font-size: 16px;
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    margin-top: 148px;
+    line-height: 30px;
+    width: 55%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 104px 0 20px; }
+    /* line 191, ../sass/partials/_story5.scss */
+    .story5Img3 p.storyText .storyQuote {
+      float: left;
+      font-size: 16px;
+      color: #8a8a8a;
+      font-weight: bold; }
+
+/* line 201, ../sass/partials/_story5.scss */
+.story5Img4 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 207, ../sass/partials/_story5.scss */
+  .story5Img4 .imgBackground {
+    float: right;
+    width: 50%; }
+    /* line 210, ../sass/partials/_story5.scss */
+    .story5Img4 .imgBackground img {
+      float: right;
+      max-width: 100%; }
+  /* line 215, ../sass/partials/_story5.scss */
+  .story5Img4 p.storyText {
+    float: left;
+    font-size: 16px;
+    color: #8a8a8a;
+    margin-top: 78px;
+    line-height: 30px;
+    width: 50%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 20px 0 98px; }
+
+/* line 228, ../sass/partials/_story5.scss */
+.story5Img5 {
+  float: left;
+  width: 100%;
+  margin-top: 28px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 132px; }
+  /* line 234, ../sass/partials/_story5.scss */
+  .story5Img5 .imgBackground {
+    float: right;
+    width: 40%; }
+    /* line 237, ../sass/partials/_story5.scss */
+    .story5Img5 .imgBackground img {
+      float: right;
+      max-width: 100%; }
+  /* line 242, ../sass/partials/_story5.scss */
+  .story5Img5 p.storyText {
+    float: left;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 78px;
+    line-height: 30px;
+    width: 60%;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+
+/* line 254, ../sass/partials/_story5.scss */
+.exclusiveStory5 {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 6px 0 32px 0;
+  padding: 0 90px; }
+  /* line 260, ../sass/partials/_story5.scss */
+  .exclusiveStory5 .imgBackground {
+    float: left;
+    width: 60%; }
+    /* line 263, ../sass/partials/_story5.scss */
+    .exclusiveStory5 .imgBackground img {
+      float: left; }
+  /* line 267, ../sass/partials/_story5.scss */
+  .exclusiveStory5 .scaleView {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 42px; }
+    /* line 272, ../sass/partials/_story5.scss */
+    .exclusiveStory5 .scaleView p.sizeText {
+      float: left;
+      font-weight: 300;
+      font-size: 15px;
+      color: #000000;
+      font-family: "Baya-Din";
+      margin-top: 24px;
+      line-height: 26px; }
+    /* line 281, ../sass/partials/_story5.scss */
+    .exclusiveStory5 .scaleView h3 {
+      float: left;
+      width: 100%;
+      margin-top: 22px;
+      font-size: 17px;
+      line-height: 1.25rem;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+      /* line 288, ../sass/partials/_story5.scss */
+      .exclusiveStory5 .scaleView h3 .cut {
+        text-decoration: line-through;
+        font-size: 17px;
+        margin-right: 8px;
+        font-weight: 300;
+        color: #BFBFBF; }
+    /* line 296, ../sass/partials/_story5.scss */
+    .exclusiveStory5 .scaleView .scaleParameter {
+      float: left;
+      width: 100%;
+      margin: 68px 0px 52px 0; }
+      /* line 300, ../sass/partials/_story5.scss */
+      .exclusiveStory5 .scaleView .scaleParameter .parameter {
+        float: left;
+        margin-left: 22px;
+        width: 36px;
+        height: 36px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        line-height: 36px; }
+        /* line 311, ../sass/partials/_story5.scss */
+        .exclusiveStory5 .scaleView .scaleParameter .parameter:first-child {
+          margin-left: 0px; }
+    /* line 316, ../sass/partials/_story5.scss */
+    .exclusiveStory5 .scaleView button.buyButton {
+      float: left;
+      width: 246px;
+      font-size: 13px;
+      line-height: 44px;
+      background-color: #000000;
+      color: #FFFFFF;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      text-transform: uppercase; }
+
+/* line 1, ../sass/partials/_about.scss */
+.aboutTopQuote {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  padding: 0px 326px; }
+  /* line 7, ../sass/partials/_about.scss */
+  .aboutTopQuote p.quoteText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 18px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 26px;
+    font-weight: 300; }
+  /* line 17, ../sass/partials/_about.scss */
+  .aboutTopQuote p.quoteFrom {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 17px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 29, ../sass/partials/_about.scss */
+.aboutBanner {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 35, ../sass/partials/_about.scss */
+  .aboutBanner .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 38, ../sass/partials/_about.scss */
+    .aboutBanner .imgBackground img {
+      max-width: 100%; }
+
+/* line 44, ../sass/partials/_about.scss */
+.aboutBannerDescription {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 48, ../sass/partials/_about.scss */
+  .aboutBannerDescription p.aboutText {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 16px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 60, ../sass/partials/_about.scss */
+.aboutImg1 {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 65, ../sass/partials/_about.scss */
+  .aboutImg1 .imgBackground {
+    float: left;
+    margin-left: 178px; }
+    /* line 68, ../sass/partials/_about.scss */
+    .aboutImg1 .imgBackground img {
+      float: left;
+      max-width: 100%; }
+  /* line 73, ../sass/partials/_about.scss */
+  .aboutImg1 .priceBox {
+    float: left;
+    margin: 82px 0 0 28px;
+    width: 262px; }
+    /* line 77, ../sass/partials/_about.scss */
+    .aboutImg1 .priceBox h3 {
+      float: left;
+      width: 100%;
+      font-size: 17px;
+      color: #000000;
+      font-family: "Baya-Din";
+      font-weight: 300;
+      letter-spacing: 1px;
+      line-height: 17px; }
+    /* line 87, ../sass/partials/_about.scss */
+    .aboutImg1 .priceBox p.aboutText {
+      float: left;
+      font-size: 14px;
+      margin-top: 16px;
+      line-height: 27px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      box-sizing: border-box;
+      -o-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box; }
+
+/* line 98, ../sass/partials/_about.scss */
+.aboutImg2 {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 103, ../sass/partials/_about.scss */
+  .aboutImg2 .imgBackground {
+    float: left;
+    margin-left: 304px; }
+    /* line 106, ../sass/partials/_about.scss */
+    .aboutImg2 .imgBackground img {
+      float: left;
+      max-width: 100%; }
+  /* line 111, ../sass/partials/_about.scss */
+  .aboutImg2 .priceBox {
+    float: left;
+    margin: 82px 0 0 28px;
+    width: 262px; }
+    /* line 115, ../sass/partials/_about.scss */
+    .aboutImg2 .priceBox h3 {
+      float: left;
+      width: 100%;
+      font-size: 17px;
+      color: #000000;
+      font-family: "Baya-Din";
+      font-weight: 300;
+      letter-spacing: 1px;
+      line-height: 17px; }
+    /* line 125, ../sass/partials/_about.scss */
+    .aboutImg2 .priceBox p.aboutText {
+      float: left;
+      font-size: 14px;
+      margin-top: 16px;
+      line-height: 27px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      box-sizing: border-box;
+      -o-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box; }
+
+/* line 136, ../sass/partials/_about.scss */
+.aboutImg3 {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 141, ../sass/partials/_about.scss */
+  .aboutImg3 .imgBackground {
+    float: left;
+    margin-left: 28px; }
+    /* line 144, ../sass/partials/_about.scss */
+    .aboutImg3 .imgBackground img {
+      float: left;
+      max-width: 100%; }
+  /* line 149, ../sass/partials/_about.scss */
+  .aboutImg3 .priceBox {
+    float: left;
+    margin: 82px 0 0 278px;
+    width: 248px; }
+    /* line 153, ../sass/partials/_about.scss */
+    .aboutImg3 .priceBox h3 {
+      float: left;
+      width: 100%;
+      font-size: 17px;
+      color: #000000;
+      font-family: "Baya-Din";
+      font-weight: 300;
+      letter-spacing: 1px;
+      line-height: 17px; }
+    /* line 163, ../sass/partials/_about.scss */
+    .aboutImg3 .priceBox p.aboutText {
+      float: left;
+      font-size: 14px;
+      margin-top: 16px;
+      line-height: 27px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      box-sizing: border-box;
+      -o-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box; }
+
+/* line 174, ../sass/partials/_about.scss */
+.work {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0 auto;
+  margin: 96px 0 28px 0; }
+  /* line 180, ../sass/partials/_about.scss */
+  .work h1.bayaWork {
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+    font-family: "Baya-Din";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px; }
+  /* line 189, ../sass/partials/_about.scss */
+  .work .featuresContainer {
+    margin: 0 auto;
+    width: 382px;
+    border-left: 1px solid #cccccc;
+    position: relative; }
+    /* line 194, ../sass/partials/_about.scss */
+    .work .featuresContainer .featuresLove {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 200, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresLove .workCircle {
+        float: left; }
+        /* line 202, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresLove .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #ffecc3;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 208, ../sass/partials/_about.scss */
+          .work .featuresContainer .featuresLove .workCircle .workImg img {
+            position: absolute;
+            width: 30px;
+            left: 50%;
+            margin-left: -15px;
+            top: 50%;
+            margin-top: -12px; }
+      /* line 218, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresLove .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 223, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresLove .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 234, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresLove .featuresText p {
+          float: left;
+          width: 100%;
+          font-size: 14px;
+          line-height: 22px;
+          margin-top: 12px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+    /* line 245, ../sass/partials/_about.scss */
+    .work .featuresContainer .featuresWear {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 251, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresWear .workCircle {
+        float: left; }
+        /* line 253, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresWear .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #f7cdbd;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 259, ../sass/partials/_about.scss */
+          .work .featuresContainer .featuresWear .workCircle .workImg img {
+            position: absolute;
+            width: 22px;
+            left: 50%;
+            margin-left: -11px;
+            top: 50%;
+            margin-top: -18px; }
+      /* line 269, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresWear .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 274, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresWear .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 285, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresWear .featuresText p {
+          float: left;
+          width: 100%;
+          margin-top: 12px;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+    /* line 296, ../sass/partials/_about.scss */
+    .work .featuresContainer .featuresReturn {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 302, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresReturn .workCircle {
+        float: left; }
+        /* line 304, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresReturn .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #f4bfbd;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 310, ../sass/partials/_about.scss */
+          .work .featuresContainer .featuresReturn .workCircle .workImg img {
+            position: absolute;
+            width: 22px;
+            left: 50%;
+            margin-left: -11px;
+            top: 50%;
+            margin-top: -11px; }
+      /* line 320, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresReturn .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 325, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresReturn .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 336, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresReturn .featuresText p {
+          float: left;
+          width: 100%;
+          font-size: 14px;
+          margin-top: 12px;
+          line-height: 22px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+    /* line 347, ../sass/partials/_about.scss */
+    .work .featuresContainer .featuresCare {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 353, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresCare .workCircle {
+        float: left; }
+        /* line 355, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresCare .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #eccad7;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 361, ../sass/partials/_about.scss */
+          .work .featuresContainer .featuresCare .workCircle .workImg img {
+            position: absolute;
+            width: 24px;
+            left: 50%;
+            margin-left: -12px;
+            top: 50%;
+            margin-top: -12px; }
+      /* line 371, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresCare .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 376, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresCare .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 387, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresCare .featuresText p {
+          float: left;
+          width: 100%;
+          margin-top: 12px;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+    /* line 398, ../sass/partials/_about.scss */
+    .work .featuresContainer .featuresDisplay {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 404, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresDisplay .workCircle {
+        float: left; }
+        /* line 406, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresDisplay .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #cfc9f0;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 412, ../sass/partials/_about.scss */
+          .work .featuresContainer .featuresDisplay .workCircle .workImg img {
+            position: absolute;
+            width: 24px;
+            left: 50%;
+            margin-left: -12px;
+            top: 50%;
+            margin-top: -12px; }
+      /* line 422, ../sass/partials/_about.scss */
+      .work .featuresContainer .featuresDisplay .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 427, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresDisplay .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 438, ../sass/partials/_about.scss */
+        .work .featuresContainer .featuresDisplay .featuresText p {
+          float: left;
+          width: 100%;
+          margin-top: 12px;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+
+/* line 452, ../sass/partials/_about.scss */
+.aboutImg4 {
+  float: left;
+  width: 100%;
+  margin-top: 78px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center; }
+  /* line 458, ../sass/partials/_about.scss */
+  .aboutImg4 .imgBackground {
+    float: left;
+    width: 100%; }
+    /* line 461, ../sass/partials/_about.scss */
+    .aboutImg4 .imgBackground img {
+      max-width: 100%; }
+
+/* line 467, ../sass/partials/_about.scss */
+.aboutImgDescription {
+  float: left;
+  width: 100%;
+  margin-top: 18px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 472, ../sass/partials/_about.scss */
+  .aboutImgDescription h3.aboutHeading {
+    float: left;
+    width: 100%;
+    font-size: 19px;
+    color: #000000;
+    margin: 28px 0 12px 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 483, ../sass/partials/_about.scss */
+  .aboutImgDescription p.storyText {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 27px;
+    font-weight: 300; }
+
+/* line 1, ../sass/partials/_checkout.scss */
+.checkoutBanner {
+  float: left;
+  width: 100%;
+  background-color: #f1f1f1; }
+  /* line 5, ../sass/partials/_checkout.scss */
+  .checkoutBanner .imgBackground {
+    float: left;
+    width: 100%;
+    background-color: #f1f1f1; }
+    /* line 9, ../sass/partials/_checkout.scss */
+    .checkoutBanner .imgBackground img.checkoutBannerImg {
+      float: left;
+      max-width: 100%;
+      margin-left: 104px;
+      margin: 118px 0 70px 102px;
+      max-height: 600px; }
+    /* line 16, ../sass/partials/_checkout.scss */
+    .checkoutBanner .imgBackground .priceBox {
+      float: left;
+      width: 168px;
+      margin: 196px 0 0 68px; }
+      /* line 20, ../sass/partials/_checkout.scss */
+      .checkoutBanner .imgBackground .priceBox h1 {
+        float: left; }
+        /* line 22, ../sass/partials/_checkout.scss */
+        .checkoutBanner .imgBackground .priceBox h1 img.logo {
+          float: left;
+          margin: 0 0 48px 0; }
+      /* line 27, ../sass/partials/_checkout.scss */
+      .checkoutBanner .imgBackground .priceBox h3 {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.25rem;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+        /* line 33, ../sass/partials/_checkout.scss */
+        .checkoutBanner .imgBackground .priceBox h3 .cut {
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #BFBFBF;
+          font-weight: 300; }
+      /* line 40, ../sass/partials/_checkout.scss */
+      .checkoutBanner .imgBackground .priceBox p.productType {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Baya-Din";
+        line-height: 1.25rem;
+        color: #000000; }
+
+/* line 53, ../sass/partials/_checkout.scss */
+p.personalDetail {
+  float: left;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 17px;
+  font-family: "ufonts.com_futurabt-book-opentype-webfont";
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  padding: 0 364px;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  word-spacing: 1px; }
+
+/* line 68, ../sass/partials/_checkout.scss */
+form {
+  float: left;
+  width: 100%;
+  margin: 100px 0 52px 0; }
+  /* line 72, ../sass/partials/_checkout.scss */
+  form .inputField {
+    float: left;
+    width: 232px;
+    margin-left: 26px; }
+    /* line 76, ../sass/partials/_checkout.scss */
+    form .inputField:first-child {
+      margin-left: 126px; }
+    /* line 79, ../sass/partials/_checkout.scss */
+    form .inputField label {
+      float: left;
+      margin-bottom: 8px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      color: #333333; }
+    /* line 87, ../sass/partials/_checkout.scss */
+    form .inputField input {
+      float: left;
+      width: 100%;
+      height: 24px;
+      font-size: 14px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      color: #333333;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #c7c7c7; }
+  /* line 99, ../sass/partials/_checkout.scss */
+  form p.agreeText {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: 1px;
+    line-height: 34px;
+    margin-top: 78px;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont"; }
+    /* line 109, ../sass/partials/_checkout.scss */
+    form p.agreeText .terms {
+      color: #000000;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-decoration: underline; }
+  /* line 116, ../sass/partials/_checkout.scss */
+  form .button {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    text-align: center; }
+    /* line 121, ../sass/partials/_checkout.scss */
+    form .button button {
+      width: 182px;
+      font-size: 13px;
+      line-height: 52px;
+      background-color: #000000;
+      color: #FFFFFF;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      text-transform: uppercase; }
+
+/* line 135, ../sass/partials/_checkout.scss */
+.checkoutImg1 {
+  float: left;
+  width: 100%;
+  margin-top: 100px; }
+  /* line 139, ../sass/partials/_checkout.scss */
+  .checkoutImg1 .imgBackground {
+    float: left;
+    margin-left: 172px;
+    position: relative; }
+    /* line 143, ../sass/partials/_checkout.scss */
+    .checkoutImg1 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px; }
+  /* line 149, ../sass/partials/_checkout.scss */
+  .checkoutImg1 .priceBox {
+    float: left;
+    margin: 72px 0 0 52px;
+    width: 232px; }
+    /* line 153, ../sass/partials/_checkout.scss */
+    .checkoutImg1 .priceBox h3 {
+      float: left;
+      width: 100%;
+      font-size: 17px;
+      line-height: 22px;
+      font-weight: normal;
+      letter-spacing: 1px;
+      font-family: "Baya-Din"; }
+    /* line 162, ../sass/partials/_checkout.scss */
+    .checkoutImg1 .priceBox p.productType {
+      float: left;
+      width: 100%;
+      margin-top: 10px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      line-height: 22px;
+      color: #8a8a8a; }
+
+/* line 175, ../sass/partials/_checkout.scss */
+.checkoutImg2 {
+  float: left;
+  width: 100%;
+  margin-top: 100px; }
+  /* line 179, ../sass/partials/_checkout.scss */
+  .checkoutImg2 .imgBackground {
+    float: left;
+    margin-left: 286px;
+    position: relative; }
+    /* line 183, ../sass/partials/_checkout.scss */
+    .checkoutImg2 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px; }
+  /* line 189, ../sass/partials/_checkout.scss */
+  .checkoutImg2 .priceBox {
+    float: left;
+    margin: 72px 0 0 52px;
+    width: 198px; }
+    /* line 193, ../sass/partials/_checkout.scss */
+    .checkoutImg2 .priceBox h3 {
+      float: left;
+      width: 100%;
+      font-size: 17px;
+      line-height: 22px;
+      font-weight: normal;
+      letter-spacing: 1px;
+      font-family: "Baya-Din"; }
+    /* line 202, ../sass/partials/_checkout.scss */
+    .checkoutImg2 .priceBox p.productType {
+      float: left;
+      width: 100%;
+      margin-top: 10px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      line-height: 22px;
+      color: #8a8a8a; }
+
+/* line 215, ../sass/partials/_checkout.scss */
+.checkoutImg3 {
+  float: left;
+  width: 100%;
+  margin-top: 100px; }
+  /* line 219, ../sass/partials/_checkout.scss */
+  .checkoutImg3 .imgBackground {
+    float: left;
+    margin-right: 20px;
+    position: relative; }
+    /* line 223, ../sass/partials/_checkout.scss */
+    .checkoutImg3 .imgBackground img {
+      float: left;
+      max-width: 100%;
+      max-height: 600px; }
+  /* line 229, ../sass/partials/_checkout.scss */
+  .checkoutImg3 .priceBox {
+    float: left;
+    width: 252px;
+    margin: 72px 52px 0 226px; }
+    /* line 233, ../sass/partials/_checkout.scss */
+    .checkoutImg3 .priceBox h3 {
+      float: left;
+      width: 100%;
+      font-size: 17px;
+      line-height: 22px;
+      font-weight: normal;
+      letter-spacing: 1px;
+      font-family: "Baya-Din"; }
+    /* line 242, ../sass/partials/_checkout.scss */
+    .checkoutImg3 .priceBox p.productType {
+      float: left;
+      width: 100%;
+      margin-top: 10px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      line-height: 22px;
+      color: #8a8a8a; }
+
+/* line 255, ../sass/partials/_checkout.scss */
+.bayaCare {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 150px 0 150px 0; }
+  /* line 260, ../sass/partials/_checkout.scss */
+  .bayaCare .care {
+    display: block; }
+    /* line 262, ../sass/partials/_checkout.scss */
+    .bayaCare .care img {
+      max-width: 100%; }
+    /* line 265, ../sass/partials/_checkout.scss */
+    .bayaCare .care h3 {
+      font-size: 17px;
+      font-family: "Baya-Din";
+      font-weight: normal;
+      color: #000000;
+      line-height: 32px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+    /* line 274, ../sass/partials/_checkout.scss */
+    .bayaCare .care p {
+      font-size: 17px;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      font-weight: 300;
+      color: #8a8a8a;
+      line-height: 24px;
+      letter-spacing: 1px; }
+
+/* line 285, ../sass/partials/_checkout.scss */
+.checkoutList {
+  float: left;
+  width: 100%; }
+  /* line 288, ../sass/partials/_checkout.scss */
+  .checkoutList .checkoutOccassions {
+    float: left; }
+    /* line 291, ../sass/partials/_checkout.scss */
+    .checkoutList .checkoutOccassions ul li {
+      font-size: 13px;
+      color: #8a8a8a;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      list-style: none;
+      line-height: 28px;
+      letter-spacing: 1px;
+      font-weight: 300; }
+    /* line 300, ../sass/partials/_checkout.scss */
+    .checkoutList .checkoutOccassions ul .checkoutListHeading {
+      font-size: 13px;
+      color: #000000;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      list-style: none;
+      line-height: 28px;
+      letter-spacing: 1px;
+      font-weight: bold; }
+  /* line 311, ../sass/partials/_checkout.scss */
+  .checkoutList .checkoutProductsList1 {
+    float: left;
+    margin-left: 74px; }
+    /* line 315, ../sass/partials/_checkout.scss */
+    .checkoutList .checkoutProductsList1 ul li {
+      font-size: 13px;
+      color: #8a8a8a;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      list-style: none;
+      line-height: 28px;
+      letter-spacing: 1px;
+      font-weight: 300; }
+    /* line 324, ../sass/partials/_checkout.scss */
+    .checkoutList .checkoutProductsList1 ul .checkoutListHeading {
+      font-size: 13px;
+      color: #000000;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      list-style: none;
+      line-height: 28px;
+      letter-spacing: 1px;
+      font-weight: bold; }
+  /* line 335, ../sass/partials/_checkout.scss */
+  .checkoutList .checkoutProductsList2 {
+    float: right;
+    margin-top: 28px; }
+    /* line 339, ../sass/partials/_checkout.scss */
+    .checkoutList .checkoutProductsList2 ul li {
+      font-size: 13px;
+      color: #8a8a8a;
+      font-family: "ufonts.com_futurabt-book-opentype-webfont";
+      list-style: none;
+      line-height: 28px;
+      letter-spacing: 1px;
+      font-weight: 300; }
+
+/* line 1, ../sass/partials/_contact.scss */
+.wrapperContact {
+  width: 640px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  /* line 6, ../sass/partials/_contact.scss */
+  .wrapperContact .contactPopup {
+    float: left;
+    width: 100%;
+    margin: 58px 0;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 78px;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75); }
+    /* line 16, ../sass/partials/_contact.scss */
+    .wrapperContact .contactPopup .contactTop {
+      float: left;
+      width: 100%;
+      margin-top: 72px;
+      text-align: center; }
+      /* line 22, ../sass/partials/_contact.scss */
+      .wrapperContact .contactPopup .contactTop h1.contactTopLogo {
+        float: left;
+        width: 100%;
+        text-align: center; }
+        /* line 26, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup .contactTop h1.contactTopLogo img {
+          max-width: 100%; }
+      /* line 31, ../sass/partials/_contact.scss */
+      .wrapperContact .contactPopup .contactTop h3.contactHeading {
+        float: left;
+        width: 100%;
+        margin-top: 28px;
+        text-align: center;
+        font-size: 24px;
+        color: #000000;
+        font-weight: normal;
+        text-transform: uppercase;
+        line-height: 34px;
+        font-family: "Baya-Din";
+        letter-spacing: 1px; }
+      /* line 45, ../sass/partials/_contact.scss */
+      .wrapperContact .contactPopup .contactTop p.contactText {
+        float: left;
+        width: 100%;
+        margin-top: 4px;
+        text-align: center;
+        font-size: 17px;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 26px;
+        color: #000000;
+        padding: 0 84px;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        word-spacing: 1px; }
+    /* line 63, ../sass/partials/_contact.scss */
+    .wrapperContact .contactPopup form.contactForm {
+      float: left;
+      width: 100%;
+      margin: 100px 0 52px 0;
+      box-sizing: border-box;
+      -o-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box; }
+      /* line 68, ../sass/partials/_contact.scss */
+      .wrapperContact .contactPopup form.contactForm .inputFieldContact {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding: 0 0 0 10px; }
+        /* line 73, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup form.contactForm .inputFieldContact:first-child {
+          padding: 0 10px 0 0; }
+        /* line 76, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup form.contactForm .inputFieldContact label {
+          float: left;
+          margin-bottom: 8px;
+          font-size: 14px;
+          letter-spacing: 1px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #333333; }
+        /* line 84, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup form.contactForm .inputFieldContact input {
+          float: left;
+          width: 100%;
+          height: 24px;
+          font-size: 14px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #333333;
+          border: none;
+          outline: none;
+          border-bottom: 1px solid #c7c7c7; }
+      /* line 97, ../sass/partials/_contact.scss */
+      .wrapperContact .contactPopup form.contactForm .contactCommentField {
+        float: left;
+        width: 100%;
+        margin-top: 34px; }
+        /* line 102, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup form.contactForm .contactCommentField label {
+          float: left;
+          margin-bottom: 8px;
+          font-size: 14px;
+          letter-spacing: 1px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #333333; }
+        /* line 111, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup form.contactForm .contactCommentField textarea {
+          float: left;
+          width: 100%;
+          padding: 0;
+          height: 92px;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #333333;
+          border: none;
+          outline: none;
+          resize: none;
+          border-bottom: 1px solid #c7c7c7; }
+      /* line 127, ../sass/partials/_contact.scss */
+      .wrapperContact .contactPopup form.contactForm .button {
+        float: left;
+        width: 100%;
+        margin-top: 48px;
+        text-align: center; }
+        /* line 132, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup form.contactForm .button button {
+          width: 182px;
+          font-size: 13px;
+          line-height: 52px;
+          background-color: #000000;
+          color: #FFFFFF;
+          border: none;
+          cursor: pointer;
+          outline: none;
+          text-transform: uppercase; }
+    /* line 147, ../sass/partials/_contact.scss */
+    .wrapperContact .contactPopup .bayaCare {
+      float: left;
+      width: 100%;
+      text-align: center;
+      margin: 50px 0 50px 0; }
+      /* line 152, ../sass/partials/_contact.scss */
+      .wrapperContact .contactPopup .bayaCare .care {
+        display: block; }
+        /* line 154, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup .bayaCare .care img {
+          max-width: 100%; }
+        /* line 157, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup .bayaCare .care h3 {
+          font-size: 17px;
+          font-family: "Baya-Din";
+          font-weight: normal;
+          color: #000000;
+          line-height: 32px;
+          text-transform: uppercase;
+          letter-spacing: 1px; }
+        /* line 166, ../sass/partials/_contact.scss */
+        .wrapperContact .contactPopup .bayaCare .care p {
+          font-size: 17px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          font-weight: 300;
+          color: #8a8a8a;
+          line-height: 24px;
+          letter-spacing: 1px; }
+
+/* line 1, ../sass/partials/_buyFor.scss */
+.BayaFor {
+  float: left;
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 58px 0;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75); }
+  /* line 11, ../sass/partials/_buyFor.scss */
+  .BayaFor h1.bayaWork {
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+    font-family: "Baya-Din";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 34px;
+    margin-top: 34px; }
+  /* line 22, ../sass/partials/_buyFor.scss */
+  .BayaFor .featuresContainer {
+    margin: 0 auto;
+    width: 382px;
+    border-left: 1px solid #cccccc;
+    position: relative; }
+    /* line 27, ../sass/partials/_buyFor.scss */
+    .BayaFor .featuresContainer .featuresLove {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 33, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresLove .workCircle {
+        float: left; }
+        /* line 35, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresLove .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #ffecc3;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 41, ../sass/partials/_buyFor.scss */
+          .BayaFor .featuresContainer .featuresLove .workCircle .workImg img {
+            position: absolute;
+            width: 30px;
+            left: 50%;
+            margin-left: -15px;
+            top: 50%;
+            margin-top: -12px; }
+      /* line 51, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresLove .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 56, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresLove .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 67, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresLove .featuresText p {
+          float: left;
+          width: 100%;
+          font-size: 14px;
+          line-height: 22px;
+          margin-top: 12px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+    /* line 78, ../sass/partials/_buyFor.scss */
+    .BayaFor .featuresContainer .featuresWear {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 84, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresWear .workCircle {
+        float: left; }
+        /* line 86, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresWear .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #f7cdbd;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 92, ../sass/partials/_buyFor.scss */
+          .BayaFor .featuresContainer .featuresWear .workCircle .workImg img {
+            position: absolute;
+            width: 22px;
+            left: 50%;
+            margin-left: -11px;
+            top: 50%;
+            margin-top: -18px; }
+      /* line 102, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresWear .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 107, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresWear .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 118, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresWear .featuresText p {
+          float: left;
+          width: 100%;
+          margin-top: 12px;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+    /* line 129, ../sass/partials/_buyFor.scss */
+    .BayaFor .featuresContainer .featuresReturn {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 135, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresReturn .workCircle {
+        float: left; }
+        /* line 137, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresReturn .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #f4bfbd;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 143, ../sass/partials/_buyFor.scss */
+          .BayaFor .featuresContainer .featuresReturn .workCircle .workImg img {
+            position: absolute;
+            width: 22px;
+            left: 50%;
+            margin-left: -11px;
+            top: 50%;
+            margin-top: -11px; }
+      /* line 153, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresReturn .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 158, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresReturn .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 169, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresReturn .featuresText p {
+          float: left;
+          width: 100%;
+          font-size: 14px;
+          margin-top: 12px;
+          line-height: 22px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+    /* line 180, ../sass/partials/_buyFor.scss */
+    .BayaFor .featuresContainer .featuresCare {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 186, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresCare .workCircle {
+        float: left; }
+        /* line 188, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresCare .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #eccad7;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 194, ../sass/partials/_buyFor.scss */
+          .BayaFor .featuresContainer .featuresCare .workCircle .workImg img {
+            position: absolute;
+            width: 24px;
+            left: 50%;
+            margin-left: -12px;
+            top: 50%;
+            margin-top: -12px; }
+      /* line 204, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresCare .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 209, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresCare .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 220, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresCare .featuresText p {
+          float: left;
+          width: 100%;
+          margin-top: 12px;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+    /* line 231, ../sass/partials/_buyFor.scss */
+    .BayaFor .featuresContainer .featuresDisplay {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      margin-left: -36px;
+      display: flex; }
+      /* line 238, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresDisplay .workCircle {
+        float: left; }
+        /* line 240, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresDisplay .workCircle .workImg {
+          position: relative;
+          width: 72px;
+          height: 72px;
+          background-color: #cfc9f0;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+          /* line 246, ../sass/partials/_buyFor.scss */
+          .BayaFor .featuresContainer .featuresDisplay .workCircle .workImg img {
+            position: absolute;
+            width: 24px;
+            left: 50%;
+            margin-left: -12px;
+            top: 50%;
+            margin-top: -12px; }
+      /* line 256, ../sass/partials/_buyFor.scss */
+      .BayaFor .featuresContainer .featuresDisplay .featuresText {
+        float: left;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding-left: 22px;
+        margin-top: 6px; }
+        /* line 261, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresDisplay .featuresText h3 {
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 22px;
+          text-transform: capitalize;
+          font-weight: normal;
+          color: #000;
+          letter-spacing: 2px;
+          font-family: "Baya-Din"; }
+        /* line 272, ../sass/partials/_buyFor.scss */
+        .BayaFor .featuresContainer .featuresDisplay .featuresText p {
+          float: left;
+          width: 100%;
+          margin-top: 12px;
+          font-size: 14px;
+          line-height: 22px;
+          font-family: "ufonts.com_futurabt-book-opentype-webfont";
+          color: #8a8a8a; }
+
+/* line 1, ../sass/partials/_terms.scss */
+.termsTop {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px; }
+  /* line 8, ../sass/partials/_terms.scss */
+  .termsTop h2.termsMainHeading {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 28px;
+    font-weight: bold; }
+  /* line 22, ../sass/partials/_terms.scss */
+  .termsTop p.termsTopText {
+    float: left;
+    width: 100%;
+    margin-top: 28px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 26px;
+    font-weight: 300; }
+  /* line 34, ../sass/partials/_terms.scss */
+  .termsTop p.termsRead {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 24px;
+    font-weight: normal; }
+
+/* line 49, ../sass/partials/_terms.scss */
+.termsContainer {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 90px;
+  margin: 0 0 48px 0; }
+  /* line 57, ../sass/partials/_terms.scss */
+  .termsContainer h3.termsHeading {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    color: #000000;
+    margin: 28px 0 0 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 17px; }
+  /* line 69, ../sass/partials/_terms.scss */
+  .termsContainer li.termsList {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    color: #000000;
+    margin: 18px 0 0 0;
+    font-family: "Baya-Din";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 26px; }
+  /* line 81, ../sass/partials/_terms.scss */
+  .termsContainer p.termsText {
+    float: left;
+    width: 100%;
+    margin-top: 14px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #8a8a8a;
+    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+    line-height: 24px;
+    font-weight: 300; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,492 @@
+.aboutTopQuote {
+    float: left;
+    width: 100%;
+    @include box-sizing(boxsizing);
+    text-align: center;
+    padding: 0px 326px;
+    p.quoteText {
+        float: left;
+        width: 100%;
+        margin-top: 18px;
+        font-size: 18px;
+        color: $black;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 26px;
+        font-weight: 300;
+    }
+    p.quoteFrom {
+        float: left;
+        width: 100%;
+        margin-top: 18px;
+        font-size: 17px;
+        color: #8a8a8a;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 27px;
+        font-weight: 300;
+    }
+}
+
+.aboutBanner {
+    float: left;
+    width: 100%;
+    margin-top: 78px;
+    @include box-sizing(boxsizing);
+    text-align: center;
+    .imgBackground {
+        float: left;
+        width: 100%;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.aboutBannerDescription {
+    float: left;
+    width: 100%;
+    @include box-sizing(boxsizing);
+    p.aboutText {
+        float: left;
+        width: 100%;
+        margin-top: 18px;
+        font-size: 16px;
+        color: #8a8a8a;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 27px;
+        font-weight: 300;
+    }
+}
+
+.aboutImg1 {
+    float: left;
+    width: 100%;
+    margin-top: 78px;
+    @include box-sizing(boxsizing);
+    .imgBackground {
+        float: left;
+        margin-left: 178px;
+        img {
+            float: left;
+            max-width: 100%;
+        }
+    }
+    .priceBox {
+        float: left;
+        margin: 82px 0 0 28px;
+        width: 262px;
+        h3 {
+            float: left;
+            width: 100%;
+            font-size: 17px;
+            color: $black;
+            font-family: "Baya-Din";
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 17px;
+        }
+        p.aboutText {
+            float: left;
+            font-size: 14px;
+            margin-top: 16px;
+            line-height: 27px;
+            font-family: "ufonts.com_futurabt-book-opentype-webfont";
+            @include box-sizing(boxsizing);
+        }
+    }
+}
+
+.aboutImg2 {
+    float: left;
+    width: 100%;
+    margin-top: 78px;
+    @include box-sizing(boxsizing);
+    .imgBackground {
+        float: left;
+        margin-left: 304px;
+        img {
+            float: left;
+            max-width: 100%;
+        }
+    }
+    .priceBox {
+        float: left;
+        margin: 82px 0 0 28px;
+        width: 262px;
+        h3 {
+            float: left;
+            width: 100%;
+            font-size: 17px;
+            color: $black;
+            font-family: "Baya-Din";
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 17px;
+        }
+        p.aboutText {
+            float: left;
+            font-size: 14px;
+            margin-top: 16px;
+            line-height: 27px;
+            font-family: "ufonts.com_futurabt-book-opentype-webfont";
+            @include box-sizing(boxsizing);
+        }
+    }
+}
+
+.aboutImg3 {
+    float: left;
+    width: 100%;
+    margin-top: 78px;
+    @include box-sizing(boxsizing);
+    .imgBackground {
+        float: left;
+        margin-left: 28px;
+        img {
+            float: left;
+            max-width: 100%;
+        }
+    }
+    .priceBox {
+        float: left;
+        margin: 82px 0 0 278px;
+        width: 248px;
+        h3 {
+            float: left;
+            width: 100%;
+            font-size: 17px;
+            color: $black;
+            font-family: "Baya-Din";
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 17px;
+        }
+        p.aboutText {
+            float: left;
+            font-size: 14px;
+            margin-top: 16px;
+            line-height: 27px;
+            font-family: "ufonts.com_futurabt-book-opentype-webfont";
+            @include box-sizing(boxsizing);
+        }
+    }
+}
+
+.work {
+    float: left;
+    width: 100%;
+    @include box-sizing(boxsizing);
+    margin: 0 auto;
+    margin: 96px 0 28px 0;
+    h1.bayaWork {
+        font-size: 20px;
+        color: #000;
+        font-weight: normal;
+        font-family: "Baya-Din";
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .featuresContainer {
+        margin: 0 auto;
+        width: 382px;
+        border-left: 1px solid #cccccc;
+        position: relative;
+        .featuresLove {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #ffecc3;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 30px;
+                        left: 50%;
+                        margin-left: -15px;
+                        top: 50%;
+                        margin-top: -12px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin-top: 12px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+        .featuresWear {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #f7cdbd;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 22px;
+                        left: 50%;
+                        margin-left: -11px;
+                        top: 50%;
+                        margin-top: -18px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    margin-top: 12px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+        .featuresReturn {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #f4bfbd;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 22px;
+                        left: 50%;
+                        margin-left: -11px;
+                        top: 50%;
+                        margin-top: -11px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    font-size: 14px;
+                    margin-top: 12px;
+                    line-height: 22px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+        .featuresCare {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #eccad7;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 24px;
+                        left: 50%;
+                        margin-left: -12px;
+                        top: 50%;
+                        margin-top: -12px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    margin-top: 12px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+        .featuresDisplay {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #cfc9f0;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 24px;
+                        left: 50%;
+                        margin-left: -12px;
+                        top: 50%;
+                        margin-top: -12px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    margin-top: 12px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+    }
+}
+
+.aboutImg4 {
+    float: left;
+    width: 100%;
+    margin-top: 78px;
+    @include box-sizing(boxsizing);
+    text-align: center;
+    .imgBackground {
+        float: left;
+        width: 100%;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.aboutImgDescription {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+    @include box-sizing(boxsizing);
+    h3.aboutHeading {
+        float: left;
+        width: 100%;
+        font-size: 19px;
+        color: $black;
+        margin: 28px 0 12px 0;
+        font-family: "Baya-Din";
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 17px;
+    }
+    p.storyText {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        color: $black;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 27px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,20 @@
+.logo{
+	@extend %leftfull;
+	@extend %center;
+	margin-top: 48px;
+	margin-bottom: 64px;
+}
+
+.click{
+    position: absolute;
+    top: 79px;
+    right: 88px;
+    cursor: pointer;   
+
+    .clickLine{
+        width: 20px;
+        height: 3px;
+        background-color: $black;
+        margin-bottom: 3px;
+    }
+}

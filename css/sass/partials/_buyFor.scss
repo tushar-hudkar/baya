@@ -1,0 +1,285 @@
+.BayaFor {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    @include box-sizing(boxsizing);
+    margin: 58px 0;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    
+    h1.bayaWork {
+        font-size: 20px;
+        color: #000;
+        font-weight: normal;
+        font-family: "Baya-Din";
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 34px;
+            margin-top: 34px;
+    }
+    .featuresContainer {
+        margin: 0 auto;
+        width: 382px;
+        border-left: 1px solid #cccccc;
+        position: relative;
+        .featuresLove {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #ffecc3;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 30px;
+                        left: 50%;
+                        margin-left: -15px;
+                        top: 50%;
+                        margin-top: -12px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin-top: 12px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+        .featuresWear {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #f7cdbd;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 22px;
+                        left: 50%;
+                        margin-left: -11px;
+                        top: 50%;
+                        margin-top: -18px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    margin-top: 12px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+        .featuresReturn {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #f4bfbd;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 22px;
+                        left: 50%;
+                        margin-left: -11px;
+                        top: 50%;
+                        margin-top: -11px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    font-size: 14px;
+                    margin-top: 12px;
+                    line-height: 22px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+        .featuresCare {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #eccad7;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 24px;
+                        left: 50%;
+                        margin-left: -12px;
+                        top: 50%;
+                        margin-top: -12px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    margin-top: 12px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+        .featuresDisplay {
+            margin: 0 auto;
+            width: 100%;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            margin-left: -36px;
+            display: flex;
+            .workCircle {
+                float: left;
+                .workImg {
+                    position: relative;
+                    width: 72px;
+                    height: 72px;
+                    background-color: #cfc9f0;
+                    @include border-radius(50%);
+                    img {
+                        position: absolute;
+                        width: 24px;
+                        left: 50%;
+                        margin-left: -12px;
+                        top: 50%;
+                        margin-top: -12px;
+                    }
+                }
+            }
+            .featuresText {
+                float: left;
+                @include box-sizing(boxsizing);
+                padding-left: 22px;
+                margin-top: 6px;
+                h3 {
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    font-weight: normal;
+                    color: #000;
+                    letter-spacing: 2px;
+                    font-family: "Baya-Din";
+                }
+                p {
+                    float: left;
+                    width: 100%;
+                    margin-top: 12px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-family: "ufonts.com_futurabt-book-opentype-webfont";
+                    color: #8a8a8a;
+                }
+            }
+        }
+    }
+}
+

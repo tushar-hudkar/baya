@@ -1,0 +1,95 @@
+.termsTop{
+
+    float: left;
+    width: 100%;
+    @include box-sizing(boxsizing);
+    padding: 0 90px;
+
+    h2.termsMainHeading{
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 18px;
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: #000000;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 28px;
+        font-weight: bold;
+        
+        }
+
+        p.termsTopText{
+            float: left;
+            width: 100%;
+            margin-top: 28px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #8a8a8a;
+            font-family: "ufonts.com_futurabt-book-opentype-webfont";
+            line-height: 26px;
+            font-weight: 300;
+        }
+
+        p.termsRead{
+            float: left;
+            width: 100%;
+            margin-top: 18px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #000000;
+            font-family: "ufonts.com_futurabt-book-opentype-webfont";
+            line-height: 24px;
+            font-weight: normal;
+        }
+
+    }
+
+
+    .termsContainer{
+        float: left;
+    width: 100%;
+    @include box-sizing(boxsizing);
+    padding: 0 90px;
+    margin: 0 0 48px 0;
+
+
+        h3.termsHeading{
+            float: left;
+            width: 100%;
+            font-size: 20px;
+            color: $black;
+            margin: 28px 0 0 0;
+            font-family: "Baya-Din";
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 17px;
+        }
+
+        li.termsList {
+        float: left;
+        width: 100%;
+        font-size: 17px;
+        color: $black;
+        margin: 18px 0 0 0;
+        font-family: "Baya-Din";
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 26px;
+    }
+
+    p.termsText{
+        float: left;
+        width: 100%;
+        margin-top: 14px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: #8a8a8a;
+        font-family: "ufonts.com_futurabt-book-opentype-webfont";
+        line-height: 24px;
+        font-weight: 300;
+    }
+
+}
+
+
